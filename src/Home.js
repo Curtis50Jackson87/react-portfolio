@@ -5,15 +5,9 @@ class Home extends Component {
     return (
       <div>
         <h2>HELLO</h2>
-        <p>My name is Curtis Jackson. Cras facilisis urna ornare ex volutpat, et
-        convallis erat elementum. Ut aliquam, ipsum vitae
-        gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-        metus nec massa. Maecenas hendrerit laoreet augue
-        nec molestie. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus.</p>
+        <p>My name is Curtis Jackson. I am an inspring web developer.</p>
 
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
-      </div>
+Right now I'm better at HTML and CSS than JavaScript.      </div>
     );
   }
 }

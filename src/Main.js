@@ -16,12 +16,14 @@ class Main extends Component {
         <div>
           <h1>Curtis Jackson</h1>
           <ul className="Header">
-           <li><NavLink to="/">Home</NavLink></li>
-           <li><NavLink to="/Projects">Projects</NavLink></li>
-           <li><NavLink to="/Contact">Contact</NavLink></li>
+          <ul className="header">
+          <li><NavLink exact to="/">Home</NavLink></li>
+          <li><NavLink to="/Projects">Projects</NavLink></li>
+          <li><NavLink to="/contact">Contact</NavLink></li>
+         </ul>
           </ul>
           <div className="content">
-           <Route path="/" component={Home}/>
+           <Route exact path="/" component={Home}/>
            <Route path="/Projects" component={Projects}/>
            <Route path="/Contact" component={Contact}/>
 
